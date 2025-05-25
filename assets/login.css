@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(../img/pexels-markusspiske-1089438.jpg);
+    
+}
+
+h1 {
+    color: rgb(10, 187, 10);
+    margin: 120px;
+    padding: 0px;
+}
+
+section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 25px 20px;
+    background-color: black;
+    border-radius: 8%;
+}
+
+label {
+    color: rgb(10, 187, 10);
+    font-size: large;
+    font-style: italic;
+    font-weight: 100;
+}
+
+input {
+    color: rgb(10, 187, 10);
+    background-color: black;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: large;
+    font-style: italic;
+    background-color: black;
+}
+
+a {
+    color: rgb(10, 187, 10);
+    
+}
