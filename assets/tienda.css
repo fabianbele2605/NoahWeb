@@ -1,0 +1,102 @@
+
+.back {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: xx-large;
+    font-style: italic;
+
+}
+
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    background-image: url(../img/carabela.gif);
+    height: 1vh;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/i\ have\ no\ idea\ #hacked\ #green\ #hellokitty\ #astral….jpeg);
+}
+
+section {
+    display: contents;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 300%;
+    padding-top: 0%;
+    font-style: italic;
+    border-radius: 40%;
+}
+
+h2:hover {
+    color: red;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    background-color: black;
+    font-size:xx-large;
+    font-style: italic;
+    border-radius: 40%;
+}
+
+h3:hover {
+    color: red;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+
+.iso {
+    height: 40px; 
+    width: 40px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: black;
+}
+
+p:hover {
+    color: red;
+}
+
+h4 {
+    background-color: black;
+    font-style: italic;
+    font-size: large;
+    border-radius: 40%;
+}

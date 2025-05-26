@@ -1,15 +1,15 @@
-document.getElementById("logibForm").addEventListener("submit", function(n) {
+document.getElementById("logibForm").addEventListener("click", function(n) {
     n.preventDefault();
 
     const user = "Noahbeleno13gmail.com"
     const pass = "Noah123"
 
-    const useremail = document.getElementById("Useremail").value;
-    const password = document.getElementById("Password").value;
+    const useremail = document.getElementById("email").value;
+    const password = document.getElementById("contraseña").value;
 
     if(useremail === user && password === pass)  {
         window.location.href = "../index.html";
     } else {
-        document.getElementById("errormensaje").textContent = "Usuario o contraseña incorrecta";
+        alert("Usuario o contraseña incorrecta");
     }
 })
