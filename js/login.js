@@ -1,6 +1,6 @@
 document.getElementById("logibForm").addEventListener("click", function(n) {
     n.preventDefault();
-
+    // estos los valores asignados para email y contraseña en el login.html
     const user = "Noahbeleno13gmail.com"
     const pass = "Noah123"
 

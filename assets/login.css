@@ -1,3 +1,4 @@
+/* Estilos para el cuerpo del documento */
 body {
     display: flex;
     justify-content: center;
@@ -6,13 +7,14 @@ body {
     background-image: url(../img/pexels-markusspiske-1089438.jpg);
     
 }
-
+/* Estilo del enbazado "Login" de la pagina */
 h1 {
     color: rgb(10, 187, 10);
     margin: 120px;
     padding: 0px;
 }
 
+/* estilo de la seccion donde se ingresaran los datos o valores */
 section {
     display: block;
     justify-content: center;
@@ -47,6 +49,7 @@ button {
     font-style: italic;
     background-color: rgb(10, 187, 10);
 }
+
 
 a {
     color: rgb(10, 187, 10);

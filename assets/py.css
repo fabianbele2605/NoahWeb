@@ -1,0 +1,56 @@
+body {
+    display: block;
+    justify-content: center;
+    color: blue;
+    height: 1vh;
+    background-color: rgb(247, 250, 87);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: xx-large;
+    font-style: italic;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    padding-top: 0%;
+    font-style: italic;
+    border-radius: 40%;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+}
+
+

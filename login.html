@@ -1,3 +1,5 @@
+<!--Login para iniciar seccion -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,22 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./assets/login.css">
-    
 </head>
 <body>
     <main>
+        <!--Encabezado de la pagina-->
         <h1>Login</h1>
+        <!-- esta es la seccion donde se vera reflajado ,que tienes que ingresar tus credenciales -->
         <section>
             <label for="email">Ingresar Email:</label><br>
             <input type="email" name="email" id="email"><br>
             <label for="contraseña">Ingresar Contraseña:</label><br>
             <input type="password" name="contraseña" id="contraseña">
         </section>
-
+         <!--Aqui esta el boton del ingreso que lo enlaze con el script de js para que verifique los datos que estan asignados--> 
         <div>
             <button id="logibForm">Ingresar</button>
         </div>
     </main>
 </body>
+<!--Aqui importamos el archivo js para que cumpla con la condicion que le pedimos-->
 <script src="./js/login.js"></script>
 </html>
